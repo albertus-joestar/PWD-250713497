@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" 
+  "http://w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset = UTF-8" />
+    <title>Formulir Pendaftaran Seminar</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+  </head>
+  <body>
+    <h1>Formulir Pendaftaran Lomba</h1>
+   
+    <form action="" method="post" enctype="multipart/form-data">
+        <div class="datatim">
+            <h2>Data Tim</h2>
+            <table cellspacing="4" cellpading="4">
+                <tr>
+                    <td style="width: 32%;">
+                    <label for="nama"><strong>Nama Tim</strong></label>
+                    </td>
+                    <td>
+                    <input type="text" id="nama" name="nama" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 32%;">
+                    <label for="ketua"><strong>Nama Ketua</strong></label>
+                    </td>
+                    <td>
+                    <input type="text" id="ketua" name="ketua" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 32%;">
+                    <label for="jumlah"><strong>Jumlah Anggota</strong></label>
+                    </td>
+                    <td>
+                    <input type="text" id="jumlah" name="jumlah" size="30" />
+                    </td>
+                </tr>
+                <tr>
+                    <td style="width: 32%;">
+                    <label for="prodi"><strong>Program Studi</strong></label>
+                    </td>
+                    <td>
+                    <select id="prodi" name="prodi">
+                        <option>Informatika</option>
+                        <option>Sistem Informasi</option>
+                        <option>Teknik Industri</option>
+                    </select>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        
+        <div class="pilihanlomba">
+            <h2>Pilihan Lomba</h2>
+            <table cellspacing="4" cellpading="4">
+                <tr>
+                <td style="width: 32%;">
+                    <strong>Kategori Lomba</strong>
+                </td>
+                <td>
+                    <input type="radio" id="individu" name="kategori" value="individu"/>
+                    <label for="individu">Individu</label>
+                    <input type="radio" id="kel" name="kategori" value="kel"/>
+                    <label for="kel">Kelompok</label>
+                </td>
+                </tr>
+                <tr>
+                <td style="width: 32%;">
+                    <strong>Bidang Lomba</strong>
+                </td>
+                <td>
+                    <p>
+                    <input type="checkbox" id="pr" name="bidang" value="Programming"/>
+                    <label for="pr">Programming</label>
+                    </p>
+                    <p>
+                    <input type="checkbox" id="uix" name="bidang" value="uiux"/>
+                    <label for="uix">UI/UX Design</label>
+                    </p>
+                    <p>
+                    <input type="checkbox" id="kt" name="bidang" value="karya"/>
+                    <label for="kt">Karya Tulis</label>
+                    </p>
+                </td>
+                </tr>
+            </table>
+        </div>
+    
+
+        <div class="informasikarya">
+            <h2>Informasi Karya</h2>
+            <table cellspacing="4" cellpading="4">
+                <tr>
+                <td style="width: 32%;">
+                    <strong>Deskripsi</strong>
+                </td>
+                <td>
+                    <textarea id="desc" name="deskarya" rows="8" cols="30"></textarea>
+                </td>
+                </tr>
+                <tr>
+                <td style="width: 32%;">
+                    <strong>File</strong>
+                </td>
+                <td>
+                    <input type="file" id="karya" name="karya"/>
+                </td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="kirim">
+            <input type="submit" name="Daftar" value="Daftar"/>
+        </div>
+        
+    </form>
+  </body>
+</html>

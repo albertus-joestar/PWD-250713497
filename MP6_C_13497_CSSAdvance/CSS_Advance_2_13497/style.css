@@ -1,0 +1,93 @@
+body{
+    background-image: url('https://inf.uajy.ac.id/assets/backgroundBuilding2-iGroxAU3.webp');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: darken;
+    background-size: cover;
+}
+
+h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-left: -350px;
+    margin-top: 100px;
+    color: #ffffff;
+}
+
+h2 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+
+table {
+    width: 100%;
+    margin-left: auto; 
+    margin-right: auto;
+    border-collapse:collapse;
+}
+
+.datatim, .pilihanlomba, .informasikarya{
+    background-color: rgba(255, 255, 255, 0.93);
+    
+    max-width: 750px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 2px solid orange;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.8);
+    margin-bottom: 15px;
+}
+
+input[type="submit"] {
+  display: block; 
+  margin: 0 auto;   
+}
+
+td {
+    padding: 20px;
+    vertical-align: middle;
+    
+}
+
+tr {
+    border-top: 1px solid orange;
+}
+
+tr:first-child {
+    border: none;
+}
+
+
+strong {
+    color: rgb(118, 67, 5);
+}
+
+input[type="text"], select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 10px 12px;
+    border: 1px solid rgb(118, 67, 5);
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: black;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input[type="submit"]{
+    background-color: orange;
+    color: #ffffff;
+    border: none;
+    padding: 12px 35px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    accent-color: orange;
+}
